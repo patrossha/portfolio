@@ -21,15 +21,9 @@ except imaplib.IMAP4.error as e:
 
 # lista de advogados cadastrados busca oab
 lista_advogados = [
-    "Alexandre Nogueira Lowndes",
-    "Carlos Eduardo Martins Moura",
-    "Josue De Souza Martins",
-    "Lucas Guth Braga Dias",
-    "HEBERT CALOR NUNES",
-    "Alexandra Carvalho da Rocha",
-    "João Henrique Santos Moura",
-    "DIEGO MENDONÇA MATOS",
-    "Vinicios Klein de Oliveira"
+    "Adv1",
+    "Adv2",
+    "Adv3"
 ]
 
 def extrair_publicacoes_texto(texto):
@@ -138,3 +132,4 @@ def connect_and_read_email():
 
 if __name__ == "__main__":
     connect_and_read_email()
+
